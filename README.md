@@ -29,7 +29,7 @@ This project aims to use **word embeddings** on **Yahoo! Finance stock descripti
    - Identify stock pairs from **PCA**, **PaCMAP**, and **non-reduced embeddings**.
    - Throw out stock pairs with a Levenshtein distance of <= 1 to avoid leveraged ETFs of stocks or stocks with different classes being considered.
    - Perform **cointegration tests** (p-value < 0.05 used) to assess statistical relationships.  
-   - Extract **monogamous** pairs to ensure no stock appears in multiple pairs.  
+   - Extract **monogamous** pairs for pairs trading.  
 
 The end result was **300** possible pairs found with **89** being monogamous (As of Dec. 7 2024)
 
