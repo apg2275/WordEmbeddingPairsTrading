@@ -6,7 +6,7 @@ Inspired by a [Quantopian post](https://quantopian-archive.netlify.app/notebooks
 
 Pairs trading is a well-known strategy, but finding effective pairs remains a challenge. The NASDAQ currently lists approximately **7,041 stocks** (as of September 2024), meaning a brute-force approach would require testing **24,784,320 pairs**  
 
-This project aims to use **word embeddings** on **Yahoo! Finance stock descriptions** then clustering to try and find promising monogamous trading pairs.
+This project aims to use **word embeddings** on **Yahoo! Finance stock descriptions** (Nvidia Example [here](https://finance.yahoo.com/quote/NVDA/profile/)) then clustering to try and find promising monogamous trading pairs.
 
 ## Methodology  
 
